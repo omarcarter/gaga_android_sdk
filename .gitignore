@@ -1,2 +1,26 @@
+# Android / general build artifacts
+.gradle/
+.idea/
+*.iml
+*.apk
+*.ap_
+*.aab
+*.keystore
+local.properties
+captures/
+output.json
+
+# OS / editor files
 .DS_Store
 **/.DS_Store
+Thumbs.db
+*.swp
+
+# Dependency / build caches
+**/build/
+**/out/
+**/libs/*.jar
+
+# Environment / secrets
+.env
+.env.*
